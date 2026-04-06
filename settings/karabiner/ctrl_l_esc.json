@@ -1,0 +1,18 @@
+{
+  "description": "ctrl+l -> esc",
+  "manipulators": [
+    {
+      "from": {
+        "key_code": "semicolon",
+        "modifiers": { "mandatory": ["control"] }
+      },
+      "to": [
+        {
+          "key_code": "escape",
+          "modifiers": []
+        }
+      ],
+      "type": "basic"
+    }
+  ]
+}
